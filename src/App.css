@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+.traffic-lights{
+    width: 100px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.traffic-lights div{
+    margin: 10px auto;
+    position: relative;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.wrapper-semaforo{
+    display: inline-block;
+}
+
+.palo{
+    width: 10px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.glow {
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+    
+}
